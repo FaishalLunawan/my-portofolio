@@ -23,7 +23,7 @@
 			title: "MineSafe (Mining Indutry Safety Enchanted)",
 			description: "A comprehensive safety vest for mining operations with real-time monitoring and alert features.",
 			fullDescription: "I secured funding from the Indonesian Ministry of Education through the PKM KC program to develop MINESAFE, an innovative safety vest. Equipped with integrated poisonous gas detection, real-time location tracking, and health monitoring capabilities. MINESAFE is expected to decrease accident rates in the mining sector.",
-			image: "/minesafe.webp",
+			image: "/minesafe_1.webp",
 			technologies: ["C", "Javascript", "HTML", "CSS", "Python"],
 			// githubUrl: "https://github.com/username/minesafe",
 			// liveUrl: "https://minesafe-demo.com",
@@ -35,9 +35,9 @@
 			id: 2,
 			title: "SIDRA DB",
 			description: "We provide fully-managed database services, handling the complexity so you can focus on building your application.",
-			fullDescription: "I secured funding from the Indonesian Ministry of Education through the PKM KC program to develop MINESAFE, an innovative safety vest. Equipped with integrated poisonous gas detection, real-time location tracking, and health monitoring capabilities. MINESAFE is expected to decrease accident rates in the mining sector.",
+			fullDescription: "Sidra is a Database as a Service (DBaaS) specifically developed to meet data management needs in a Cloud environment. This service allows businesses and developers to easily provision, operate, and manage databases without the hassle of complex infrastructure, such as server provisioning, software installation, or routine maintenance.",
 			image: "/sidra.webp",
-			technologies: ["C", "Javascript", "HTML", "CSS", "Python"],
+			technologies: ["Svelte", "Typescript", "Tailwind", "Javascript", "HTML", "CSS", "Golang"],
 			// githubUrl: "https://github.com/username/minesafe",
 			// liveUrl: "https://minesafe-demo.com",
 			featured: false,
@@ -103,7 +103,7 @@
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 			{#each filteredProjects as project (project.id)}
 				<Card 
-					class="group relative overflow-hidden transition-all duration-500 hover:scale-105 hover:shadow-2xl border border-gray-200 dark:border-gray-700 flex flex-col h-full"
+					class="group relative transition-all duration-500 hover:scale-105 hover:shadow-2xl border border-gray-200 dark:border-gray-700 flex flex-col h-full w-full"
 				    img="{project.image}" >
 					<div class="p-6 flex flex-col flex-grow">
 						<!-- Badge -->
@@ -214,7 +214,7 @@
 					<img 
 						src={selectedProject.image} 
 						alt={selectedProject.title}
-						class="lg:w-1/2 lg:float-right lg:mr-10 w-full h-full object-cover rounded-2xl mb-10"
+						class="lg:w-1/2 lg:float-right lg:mr-10 w-100 h-100 object-cover rounded-2xl mb-10"
 					/>
 					<div>
 						<h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Project Overview</h4>
