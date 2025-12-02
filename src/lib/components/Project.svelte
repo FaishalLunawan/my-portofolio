@@ -22,7 +22,7 @@
 			title: "MineSafe (Mining Indutry Safety Enchanted)",
 			description: "A comprehensive safety vest for mining operations with real-time monitoring and alert features.",
 			fullDescription: "I secured funding from the Indonesian Ministry of Education through the PKM KC program to develop MINESAFE, an innovative safety vest. Equipped with integrated poisonous gas detection, real-time location tracking, and health monitoring capabilities. MINESAFE is expected to decrease accident rates in the mining sector.",
-			image: "images/minesafe_1.webp",
+			image: "images/minesafe.webp",
 			technologies: ["C", "Javascript", "HTML", "CSS", "Python"],
 			// githubUrl: "https://github.com/username/minesafe",
 			// liveUrl: "https://minesafe-demo.com",
@@ -36,13 +36,28 @@
 			description: "We provide fully-managed database services, handling the complexity so you can focus on building your application.",
 			fullDescription: "Sidra is a Database as a Service (DBaaS) specifically developed to meet data management needs in a Cloud environment. This service allows businesses and developers to easily provision, operate, and manage databases without the hassle of complex infrastructure, such as server provisioning, software installation, or routine maintenance.",
 			image: "images/sidra.webp",
-			technologies: ["Svelte", "Typescript", "Tailwind", "Javascript", "HTML", "CSS", "Golang"],
+			technologies: ["Svelte", "Typescript", "Tailwind", "HTML", "CSS", "Golang"],
 			// githubUrl: "https://github.com/username/minesafe",
 			// liveUrl: "https://minesafe-demo.com",
 			featured: false,
-			features: ["PostgressSQL", "MongoDB", "", "Dashboard analytics","Location tracking"],
+			features: ["PostgressSQL", "MongoDB", "Redis", "MySQL"],
 			status: "In Development"
 		},
+		{
+			id: 3,
+			title: "Warehouse Management System",
+			description: "A Warehouse Management System (WMS) is a specialized software platform designed to control, optimize, and automate the daily operations of a warehouse or distribution center..",
+			fullDescription: "A Warehouse Management System (WMS) is a robust software application and associated processes designed to provide complete visibility and control over the entire inventory and operations within a warehouse or distribution center, from the moment goods arrive at the receiving dock until they ship out to customers.",
+			image: "images/wms.webp",
+			technologies: ["Node.js", "Typescript", "javascript", "Tailwind", "CSS", "Next.js"],
+			// githubUrl: "https://github.com/username/minesafe",
+			// liveUrl: "https://minesafe-demo.com",
+			featured: false,
+			features: ["inventory", "management"],
+			status: "In Development"
+		}
+			
+
 	
 	];
 

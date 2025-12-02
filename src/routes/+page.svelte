@@ -3,6 +3,7 @@
 	import Project from '$lib/components/Project.svelte';
 	import SkillsRunningText from '$lib/components/SkillsRunningText.svelte';
 	import Background from '$lib/components/Background.svelte';
+  import BottomBar from '$lib/components/BottomBar.svelte';
 	
 	// Use Flowbite's dark mode store
 	import { DarkMode } from 'flowbite-svelte';
@@ -25,9 +26,8 @@
         <h1 class="text-4xl font-bold text-gray-900 dark:text-white">Hi, I'm Faishal Lunawan 👋</h1>
         <p class="mt-4 text-lg text-gray-600 dark:text-gray-400">Fullstack Web Developer</p>
         <p class="mt-2 text-gray-500 dark:text-gray-400 max-w-md">
-          Passionate about building scalable backend systems and managing projects from concept to completion.
-        </p>
-        <Button class="mt-6 bg-gradient-to-br from-green-900 to-gray-900 dark:from-gray-900 dark:to-blue-900 hover:scale-105 transition-transform duration-200" size="lg">
+          “I'm a Full Stack Developer with experience in backend, frontend, and IoT-related systems, where I build applications and systems that connect devices, UI, and servers.”</p>
+        <Button class="mt-6 bg-gradient-to-br from-green-900 to-gray-900 dark:from-gray-900 dark:to-blue-900 hover:scale-105 transition-transform duration-200"  href="https://www.linkedin.com/in/faishal-lunawan/" size="lg">
           Contact Me
         </Button>
       </div>			
@@ -46,6 +46,8 @@
 			</div>
 		</section>
 
+    
+    <BottomBar />
 		<!-- Footer -->
 		<!-- <footer class="p-4 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm relative z-10"> -->
 </div>		
