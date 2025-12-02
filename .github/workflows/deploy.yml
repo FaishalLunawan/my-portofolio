@@ -25,11 +25,30 @@ jobs:
           
       # 3. Install dependencies
       - name: Install dependencies
-        run: npm ci
+        run: npm ci  
         
       # 4. Build project (TIDAK PERLU env BASE_PATH)
       - name: Build SvelteKit
         run: npm run build
+
+      - name: Check Images in Build
+        run: |
+          echo "=== CEK GAMBAR DI BUILD ==="
+          echo ""
+          echo "1. List semua gambar:"
+          find build/ -type f \( -name "*.jpg" -o -name "*.png" -o -name "*.webp" -o -name "*.svg" \) 2>/dev/null || echo "Tidak ada gambar"
+          
+          echo ""
+          echo "2. Cek folder images:"
+          ls -la build/images/ 2>/dev/null || echo "Folder images tidak ada"
+          
+          echo ""
+          echo "3. Cek apakah static file ada:"
+          ls -la build/ | grep -E "(.nojekyll|404.html|images)"
+          
+          echo ""
+          echo "=== SELESAI ==="
+      
         
       # 5. Debug: Lihat isi build folder
       - name: Debug build output

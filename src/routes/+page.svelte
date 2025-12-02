@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, Avatar } from 'flowbite-svelte';
+	import { Button } from 'flowbite-svelte';
 	import Project from '$lib/components/Project.svelte';
 	import SkillsRunningText from '$lib/components/SkillsRunningText.svelte';
 	import Background from '$lib/components/Background.svelte';
