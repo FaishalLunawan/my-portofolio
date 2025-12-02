@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { Card, Button, Badge, Modal, Heading } from 'flowbite-svelte';
-    import logo from '$lib/assets/minesafe.webp';
 	// Types
 	interface Project {
 		id: number;
