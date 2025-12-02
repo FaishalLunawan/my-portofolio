@@ -13,7 +13,9 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check .",
 		"deploy": "npm run build && npm run gh-pages",
-		"gh-pages": "npx gh-pages -d build -t true"
+		"gh-pages": "npx gh-pages -d build -t true",
+		"build:local": "vite build",
+        "preview:local": "vite preview"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^6.1.0",

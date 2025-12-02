@@ -1,4 +1,3 @@
-// GANTI ISI FILE svelte.config.js DENGAN INI:
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
@@ -9,10 +8,14 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: 'index.html', // PENTING untuk SPA
+			fallback: '404.html', // Ganti dari index.html ke 404.html
 			precompress: false,
 			strict: true
-		})
+		}),
+		paths: {
+			// Base path untuk GitHub Pages
+			base: process.argv.includes('dev') ? '' : '/my-portofolio'
+		}
 	}
 };
 
