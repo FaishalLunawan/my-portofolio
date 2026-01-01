@@ -27,7 +27,7 @@
 </script>
 
 <div 
-    class="overflow-hidden relative py-3 bg-gradient-to-br from-green-900 to-gray-900 dark:from-gray-900 dark:to-blue-900 text-white dark:text-gray-200"
+    class="overflow-hidden relative py-3 bg-gradient-to-br from-green-900 to-green-900/50 dark:from-gray-900 dark:to-blue-900 text-white dark:text-gray-200"
 >
     <!-- Gradient overlay -->
     <!-- <div class="absolute bg-gradient-to-r from-green-500 to-transparent z-10"></div> -->
