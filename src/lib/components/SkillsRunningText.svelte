@@ -3,6 +3,7 @@
     
     const techSkills = [
         "JavaScript",
+        "C",
         "TypeScript", 
         "React",
         "Vue.js",
@@ -10,7 +11,6 @@
         "Node.js",
         "Express.js",
         "Python",
-        "Django",
         "PostgreSQL",
         "MongoDB",
         "Redis",
@@ -18,10 +18,8 @@
         "AWS",
         "Git",
         "REST API",
-        "GraphQL",
         "Tailwind CSS",
         "SASS",
-        "Jest"
     ];
 
     let isPaused = $state(false);

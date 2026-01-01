@@ -84,14 +84,14 @@
 </script>
 
 <section id="projects" class="py-20 bg-white dark:bg-gray-900 rounded-2xl">
-	<div class="container mx-auto px-6">
+	<div class=" mx-auto px-6">
 		<!-- Header Section -->
-		<div class="text-center mb-16">
+		<div class="text-center mb-10">
 			<h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
 				My <span class="text-green-600 dark:text-blue-700">Projects</span>
 			</h2>
 			<p class="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-				Here are some of my recent projects that showcase my skills in web development and problem-solving.
+				Here are some of my recent projects that showcase my skills and experience.
 			</p>
 			
 			<!-- Filter Buttons -->
@@ -124,7 +124,7 @@
 						<div class="flex justify-between items-start mb-3">
 							{#if project.featured}
 								<Badge color="yellow" class="mb-2">
-									⭐ Featured
+									Featured
 								</Badge>
 							{/if}
 							<Badge color={project.status === 'Completed' ? 'green' : 'blue'} size="small">
@@ -177,7 +177,7 @@
 	<!-- Project Detail Modal -->
 	{#if showModal && selectedProject}
 		<Modal 
-			title={selectedProject.title} 
+			
 			open={showModal} 
 			onclose={closeModal}
 			size="xl"
@@ -190,7 +190,7 @@
 						<div class="flex flex-wrap gap-2 mb-3">
 							{#if selectedProject.featured}
 								<Badge color="yellow">
-									⭐ Featured Project
+									Featured Project
 								</Badge>
 							{/if}
 							<Badge color={selectedProject.status === 'Completed' ? 'green' : 'blue'}>
