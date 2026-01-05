@@ -10,9 +10,9 @@
 	import { ChevronDownOutline } from 'flowbite-svelte-icons';
 
   const linkedInUrl = 'https://www.linkedin.com/in/faishal-lunawan/';
-  const githubUrl = 'https://github.com/FaishalLunawan';
+  // const githubUrl = 'https://github.com/FaishalLunawan';
   const email = 'faishallunawan@gmail.com';
-  const resumeUrl = 'https://drive.google.com/file/d/1iUdDihTHqle5tKj3vSOOp634gken-_IP/view?usp=drive_link'
+  const resumeUrl = 'https://drive.google.com/file/d/1ek2agcP2ywDtPUNDLzpBSfdoAWSmK2kP/view?usp=sharing'
 </script>
 
 <div class="relative min-h-screen overflow-hidden bg-gray-50 dark:bg-gray-900">
@@ -108,9 +108,7 @@
 		</div>
 	</section>
 
-  <section id="experience" class=" bg-green-900/50 py-5 backdrop-blur-sm dark:bg-gray-700/80"
-	>
-
+  <section id="experience" class=" bg-green-900/50 py-5 backdrop-blur-sm dark:bg-gray-700/80">
     <Experience />
   </section>
 
